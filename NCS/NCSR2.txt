@@ -1,0 +1,18 @@
+#enter configuration mode
+configuration terminal
+
+#enable interface
+interface HundredGigE0/0/1/0
+ip address 10.1.1.1 255.255.255.0
+no shut
+
+#multicast enablement
+multicast-routing
+address-family ipv4 
+interface all enable
+commit
+
+#igmp enablement
+router igmp
+interface HundredGigE0/0/1/2
+static-group 232.1.1.1 10.1.1.2

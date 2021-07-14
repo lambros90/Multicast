@@ -1,0 +1,19 @@
+#enter configuration mode
+configuration terminal
+
+#enable interface
+interface GigabitEthernet 0/0/0/0
+ip address 10.1.1.1 255.255.255.0
+no shut
+commit
+
+#multicast enablement
+multicast-routing
+address-family ipv4 
+interface all enable
+commit
+
+#igmp enablement
+router igmp
+interface GigabitEthernet 0/0/0/0
+static-group 232.1.1.1 10.1.1.2

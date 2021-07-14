@@ -1,0 +1,9 @@
+to verify the above configuration run the following commands:
+
+show mfib hardware route location <0/0/CPU0>
+show mrib route
+debug ip igmp
+
+This output shows that the needed multicast channel has been created which is (10.1.1.2, 232.1.1.1). It has two interfaces connected to it, the 100G from Macrocarpa and the 100G from Cannonball. 
+
+By executing the command debug ip igmp we can check the IGMPv3 joins that are being sent  
