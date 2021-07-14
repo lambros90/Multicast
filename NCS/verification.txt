@@ -1,5 +1,11 @@
 to verify the above configuration run the following commands:
 
+#the following command verifies that multicast is enabled
+show running multicast-routing
+
+#the following command verifies interfaces that are enabled for multicast
+show mfib interface location 0/0/CPU0 | inc <interface>
+
 #the following show command displays the multicast egress stats per OLE
 show mfib hardware route location <0/0/CPU0>
 
