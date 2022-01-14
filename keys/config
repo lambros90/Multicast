@@ -1,0 +1,65 @@
+Host telemetry.github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/telemetry
+    IdentitiesOnly yes
+
+Host ncs5500.github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/ncs5500
+    IdentitiesOnly yes
+
+Host device-lifecycle.github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/device-lifecycle
+    IdentitiesOnly yes
+
+Host cloud-scale-networking.github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/cloud-scale-networking
+    IdentitiesOnly yes
+
+Host application-hosting.github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/application-hosting
+    IdentitiesOnly yes
+
+Host automation.github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/automation
+    IdentitiesOnly yes
+
+Host programmability.github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/programmability
+    IdentitiesOnly yes
+
+Host multicast.github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/multicast
+    IdentitiesOnly yes
+
+Host packet-fronthaul.github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/packet-fronthaul
+    IdentitiesOnly yes
+
+Host 8000.github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/8000
+    IdentitiesOnly yes
+
+Host cnbng.github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/cnbng
+    IdentitiesOnly yes
