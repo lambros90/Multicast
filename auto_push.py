@@ -111,11 +111,11 @@ def update_repo():
 	print ('cnbg repo was updated')
 
 	os.system('cd /xrdocs/tdm2ip/ && cd images/avatars && git pull origin master && \
-		 cd ../.. && git add images/avatars/ . && git commit -m "subrepo update {0}" && git push origin gh-pages'.format(toda>
+		 cd ../.. && git add images/avatars/ . && git commit -m "subrepo update {0}" && git push origin gh-pages'.format(today))
 	print ('tdm2ip repo was updated')
 
 	os.system('cd /xrdocs/tdm2ip/ && cd images/avatars && git pull origin master && \
-		cd ../.. && git add images/avatars/ . && git commit -m "subrepo update {0}" && git push origin gh-pages'.format(toda>
+		cd ../.. && git add images/avatars/ . && git commit -m "subrepo update {0}" && git push origin gh-pages'.format(today))
 	print ('tdm2ip repo was updated')
 
 if __name__ == '__main__':
