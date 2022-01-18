@@ -119,4 +119,4 @@ def update_repo():
 	print ('tdm2ip repo was updated')
 
 if __name__ == '__main__':
-	app.run(host='64.225.112.234', port=7777, debug=True)
+	app.run(host='172.31.85.166', port=7777, debug=True)
